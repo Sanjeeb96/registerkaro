@@ -4,6 +4,8 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Benefits />
         <Collaboration />
         <Pricing />
+        <Testimonials />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
